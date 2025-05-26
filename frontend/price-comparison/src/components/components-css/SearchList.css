@@ -1,0 +1,34 @@
+.SearchList {
+    width: 70%;
+    position: relative;
+    left: 30%;
+}
+
+.no-result {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+    padding: 0 0 300px 0;
+}
+
+.no-result-img > img {
+    height: 200px;
+}
+
+.no-items {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.no-items-text {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.no-result-dark {
+    color: white;
+}
+
+.no-result-dark > .no-items-text {
+    color: rgb(119, 119, 119);
+}

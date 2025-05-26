@@ -1,0 +1,30 @@
+.MainPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: calc(0.5*(100vh - 84px));
+    margin: 10px 40px;
+}
+
+.MainPanel:nth-child(0) {
+    margin: 80px 40px;
+}
+
+.bento {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 10px;
+    background-color: #f7f7f7;
+}
+
+.bento1, .bento6 {
+    width: 50%;
+}
+
+.bento2, .bento3, .bento4, .bento5 {
+    width: 25%;
+}

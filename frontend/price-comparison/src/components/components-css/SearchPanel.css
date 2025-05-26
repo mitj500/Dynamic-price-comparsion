@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 600,
+    'GRAD' -25,
+    'opsz' 48;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(221, 220, 220, 0.777);
+    margin: 5px;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+}
+
+.panel-search-dark > .material-symbols-outlined {
+    background-color: rgba(118, 118, 118, 0.612);
+}
+
+.search-holder {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-search {
+    border: 1px solid black;
+    width: 70%;
+    margin: 0px 0;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.panel-txt {
+    font-size: 48px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    font-family: "Roboto", sans-serif;
+    margin: 40px 0;
+}
+
+.panel-txt > span.main {
+    font-size: 56px;
+    background: linear-gradient(to right, rgb(236, 119, 119), rgb(132, 152, 251));
+    -webkit-text-fill-color: transparent;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+}
+
+.panel-txt > span.inst {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(59, 91, 142));
+    -webkit-text-fill-color: transparent;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+}
+
+.panel-txt > span.smaller {
+    margin: 20px 0;
+    font-size: 25px;
+    color: rgba(48, 48, 48, 0.77);
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+}
+
+.search-bar {
+    border: none;
+    width: 90%;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    margin: 0 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.panel-search-dark {
+    background-color: black;
+    border: 1px solid rgba(77, 76, 76, 0.485);
+
+}
+
+.search-bar-dark {
+    background-color: black;
+    color: white;
+}
+
+.panel-txt-dark {
+    background-color: black;
+    color: white;
+}
+
+.panel-txt-dark > span.smaller {
+    color: rgba(153, 151, 151, 0.722);
+}
+
+.panel-txt-dark > span.inst {
+    background: linear-gradient(to right, rgb(93, 92, 92), rgb(59, 91, 142));
+    -webkit-text-fill-color: transparent;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+}
+
+.search-holder-dark {
+    background-color: black;
+}

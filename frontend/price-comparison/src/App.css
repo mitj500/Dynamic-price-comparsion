@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@100..900&family=Noto+Sans+Lao+Looped:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.blob {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  opacity: 0.3;
+  width: 300px;
+  aspect-ratio: 1/1;
+  animation: animate 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite
+    alternate forwards;
+  filter: blur(40px);
+  z-index: 1;
+  background: linear-gradient(
+    47deg,
+    rgba(255, 88, 139, 1) 21%,
+    rgb(0 164 173) 67%,
+    rgba(118, 74, 166, 1) 81%
+  );
+
+  /*  Optional  */
+  /*   box-shadow: inset 50px 50px 17px 0px #ff588b,
+    inset 100px 100px 17px 0px #66319f; */
+}
+
+@keyframes animate {
+  0% {
+    translate: 0% 0%;
+    border-radius: 60% 40% 30% 70% / 100% 85% 92% 74%;
+  }
+  50% {
+    translate: 100% 0%;
+    border-radius: 20% 71% 47% 70% / 81% 15% 22% 54%;
+    rotate: 60deg;
+    scale: 1.15;
+    width: 400px;
+    opacity: 0.4;
+  }
+  100% {
+    translate: -45% 0%;
+    border-radius: 100% 75% 92% 74% / 60% 80% 30% 70%;
+    rotate: -60deg;
+    scale: 1.05;
+  }
+}
+
+.App-dark {
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(87, 85, 85);
+  border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+.skeleton-body {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    position: relative;
+    left: 3%;
+    top: 10%;
+    margin: 20px 0 40px 0;
+    padding: 20px;
+}
+
+.skeleton-body-dark
+
+.skeleton-img {
+    border-radius: 30px;
+}
+
+.skeleton-name {
+    margin: 0 20px;
+}
+
+.skeleton-item {
+    margin: 10px 0;
+    border-radius: 30px;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading-dark {
+    color: white;
+}
+
+.heading > div {
+    margin: 0 20px;
+}
+
+.signup {
+    padding: 160px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-dark {
+    background-color: black;
+}
+
+.inpbox > input {
+    width: 80%;
+    height: 50px;
+    outline: none;
+    /* border: 1px solid blue; */
+    text-align: left;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgba(237, 237, 237, 0);
+    font-size: 1rem;
+}
+
+.inpbox-dark > input {
+    color: white;
+}
+
+.inpbox {
+    /* border: 1px solid rgb(63, 63, 63); */
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(237, 237, 237, 0.8);
+}
+
+.inpbox-dark {
+    background-color: rgb(24 24 24 / 84%);
+    color: white;
+}
+
+.inp1 {
+    margin: 50px 0 10px 0 !important;
+}
+
+.inp1 > i {
+    font-size: 15px;
+}
+
+#password {
+    width: 70%;
+}
+
+.signupbtn {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    margin: 30px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.signupbtn-dark {
+    color: black;
+    background-color: white;
+}
+
+.divider::before {
+    content: '';
+    width: 170px;
+    height: 1px;
+    background-color: #c7c6c6;
+    position: absolute;
+    left: 37%;
+    top: 550px;
+}
+
+.divider::after {
+    content: '';
+    width: 170px;
+    height: 1px;
+    background-color: #c7c6c6;
+    position: absolute;
+    right: 37%;
+    top: 550px;
+}
+
+.divider-dark {
+    color: white;
+}
+
+.signwithgoogle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 30px;
+    margin: 30px 0 0 0;
+}
+
+.signwithgoogle-dark {
+    color: white;
+    border: 1px solid #3a3a3a;
+}
+
+.redirect {
+    margin: 30px 0 0 0;
+}
+
+.redirect-dark {
+    color: #b9b5b5;
+}
+
+.redirect > a {
+    margin: 0 5px;
+    text-decoration: underline;
+}
+
+.redirect-dark > a {
+    color: #b9b5b5;
+}

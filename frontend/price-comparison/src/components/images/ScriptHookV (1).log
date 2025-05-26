@@ -1,0 +1,19 @@
+// GTA V SCRIPT HOOK (build Feb  5 2023, v1.0.2824.0)
+//     (C) Alexander Blade 2015-2023
+[22:45:40] INIT: Started
+[22:45:40] INIT: Success, game version is VER_1_0_2824_0
+[22:45:40] INIT: Registering script 'Menyoo.asi' (0x00007FFC11EDA3A0)
+[22:45:40] INIT: Registering additional script thread 'Menyoo.asi' (0x00007FFC11EE9C20)
+[22:45:40] INIT: Registering script 'NativeTrainer.asi' (0x00007FFC452AA3C0)
+[22:45:41] INIT: Registering script 'ScriptHookVDotNet.asi' (0x00007FFC40E41480)
+[22:45:47] INIT: Pool 1 extended
+[22:45:47] INIT: Pool 2 extended
+[22:45:47] INIT: Pool 3 extended
+[22:45:47] INIT: Pool 4 extended
+[22:45:52] INIT: GtaThread collection size 189
+[22:45:52] INIT: wnd proc 0x00000000FFFF17B3
+[22:45:52] INIT: IDXGISwapChain 0x00007FFC10855640 (0x00007FFC1063FCF0)
+[22:45:52] INIT: IDXGISwapChain set
+[22:45:52] INIT: DX init started
+[22:45:52] INIT: DX feature level A000
+[22:45:52] INIT: DX init succeeded

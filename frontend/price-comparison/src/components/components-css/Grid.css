@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-holder-div {
+    margin-top: 40px;
+    height: calc(100vh - 200px);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img-holder-div-dark {
+    background-color: black;
+}
+
+.img-div {
+    margin: 10px;
+}

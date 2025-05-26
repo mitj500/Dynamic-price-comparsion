@@ -1,0 +1,51 @@
+.TitleBar {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    margin: 30px 40px;
+    padding-top: 85px;
+}
+
+.title-search {
+    width: 30%;
+}
+
+.title-search-dark {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.sticky {
+    position: fixed;
+    margin-top: -90px;
+    margin-left: 300px;
+    transition: 0.1s ease-in-out;
+    z-index: 5;
+}
+
+.result-txt {
+    margin: 0 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgba(94, 94, 94, 0.755);
+    border-bottom: 1px solid rgba(199, 196, 196, 0.534);
+}
+
+.result-txt-dark {
+    color: rgb(145, 145, 145);
+}
+
+.result-txt>span {
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+}
+
+.result-txt-dark>span {
+    color: gray;
+}
+
+.search-bar-dark {
+    background-color: black;
+    color: white;
+}

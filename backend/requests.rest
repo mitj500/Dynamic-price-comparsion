@@ -1,0 +1,7 @@
+POST http://localhost:3030/update-username
+Content-Type: application/json
+
+{
+    "username": "uhBibab12",
+    "oldusername": "uhBibab"
+}

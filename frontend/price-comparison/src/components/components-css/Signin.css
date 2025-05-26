@@ -1,0 +1,19 @@
+.divider1::before {
+    content: '';
+    width: 170px;
+    height: 1px;
+    background-color: #c7c6c6;
+    position: absolute;
+    left: 37%;
+    top: 480px;
+}
+
+.divider1::after {
+    content: '';
+    width: 170px;
+    height: 1px;
+    background-color: #c7c6c6;
+    position: absolute;
+    right: 37%;
+    top: 480px;
+}

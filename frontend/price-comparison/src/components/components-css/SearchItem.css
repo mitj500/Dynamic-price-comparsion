@@ -1,0 +1,110 @@
+.SearchItemProduct .link {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px;
+    /* border-radius: 20px; */
+    border-bottom: 1px solid rgba(179, 179, 179, 0.492);
+    width: 80%;
+    text-decoration: none;
+    color: black;
+}
+
+.txt-content {
+    margin: 10px 30px;
+    width: 70%;
+    min-height: 200px;
+}
+
+.name {
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+.price {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.stars {
+    font-size: 1rem;
+    color: rgba(100, 100, 100, 0.808);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.fa-indian-rupee-sign {
+    margin: 0 5px 0 0;
+    font-size: 20px;
+    color: #545353;
+}
+
+.staricon {
+    padding: 0;
+    margin: 0 5px 0 0;
+    background-color: white;
+    color: black;
+}
+
+.img-content {
+    width: 30%;
+    align-items: center;
+}
+
+.img-content > img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.multi-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.savebtn::before {
+    font-size: 25px;
+    padding: 12px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #cacaca76;
+}
+
+.savebtn:hover::before {
+    background-color: #54535357;
+}
+
+.txt-content-dark {
+    color: white;
+}
+
+.price-dark > i {
+    color: white;
+}
+
+.stars-dark {
+    color: rgb(189, 189, 189) !important;
+}
+
+.stars-dark > .staricon {
+    background-color: black;
+    color: white;
+}
+
+.img-content-dark {
+    background-color: black;
+}
+
+.txt-content-dark > button > .savebtn::before {
+    color: #545353;
+    background-color: white !important;
+}
+
+.txt-content-dark > button > .savebtn:hover::before {
+    background-color: black !important;
+}

@@ -1,0 +1,30 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    width: 100%;
+    position: relative;
+}
+
+.nav-panel {
+    background-color: #d1d1d19c;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.txt { 
+    margin: 0 1.5rem;
+}

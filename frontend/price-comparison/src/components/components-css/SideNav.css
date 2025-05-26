@@ -1,0 +1,90 @@
+.sidenav {
+    margin-top: 80px;
+    position: sticky;
+    left: 5%;
+    width: 20%;
+    padding: 30px 30px;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 650px;
+}
+
+.sidenav-dark {
+    background-color: black;
+}
+
+.panel-header {
+    color: rgba(55, 54, 54, 0.785);
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin: 10px 0 30px 0;
+}
+
+.sidenav-dark > .panel-header {
+    color: rgb(164, 162, 162);
+}
+
+.panel-header::after {
+    content: '';
+    background-color: rgba(163, 163, 163, 0.521);
+    height: 1px;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 30px;
+}
+
+.panel-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-profile, .change-password {
+    color: rgba(55, 54, 54, 0.785);
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+
+.sidenav-dark > .panel-holder > .edit-profile, .change-password {
+    color: rgb(148, 148, 148);
+}
+
+.edit-profile > i, .change-password > i {
+    margin: 0 10px 0 0;
+}
+
+.active, .active2 {
+    background-color: rgb(236 236 234 / 52%);
+}
+
+.active::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 48px;
+    width: 3px;
+    position: absolute;
+    top: 11%;
+    left: calc(100% - 30px);
+}
+
+.active2::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 48px;
+    width: 3px;
+    position: absolute;
+    top: 19%;
+    left: calc(100% - 30px);
+}
+
+.sidenav-dark > .panel-holder > .active, .active2 {
+    background-color: rgb(34, 34, 34);
+}
+
+.sidenav-dark > .panel-holder > .active::after, .active2::after {
+    background-color: white;
+}
